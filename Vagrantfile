@@ -57,6 +57,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # View the documentation for the provider you're using for more
   # information on available options.
 
-  config.vm.provision "shell", path: "http://unlimite.net/provisioner.sh"
+  config.vm.provision "shell", path: "https://github.com/freemangh/vagrant-test/blob/master/provisioner.sh"
 
 end
